@@ -1,0 +1,73 @@
+.cross{
+
+    text-decoration: line-through;
+}
+
+
+
+@keyframes example {
+  from {background-color: lightpink;}
+  to {background-color: #EB7A7A;}
+}
+
+.color{
+
+    animation-name:example; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.main{
+    text-align: center;
+    transition: all 0.4 ease;
+   
+    
+}
+
+.main:hover{
+
+    transform: translate(10px);
+
+
+}
+
+h1{
+    text-align: center;
+   
+}
+
+.header{
+     transition: all 0.4s ease;
+
+}
+.header:hover{
+    transform: rotate(7deg);
+}
+
+p{
+    text-align: center;
+    transition: all 0.4s linear;
+}
+
+p:hover{
+    transform: rotate(-7deg);
+}
+
+li{ 
+    transition: all 0.4 ease;
+    padding-bottom: 15px;
+    text-align: center;
+    color: blue;
+    list-style: none;
+
+}
+
+
+li:hover{
+    transform: translate(10px);
+}
+
+
+
+
+
